@@ -3,7 +3,8 @@ public class Quadrilateral {
     Point pt2;
     Point pt3;
     Point pt4;
-    int square, perimeter;
+    double square;
+    double perimeter;
     public Quadrilateral(Point pt1, Point pt2, Point pt3, Point pt4){
         this.pt1=pt1;
         this.pt2=pt2;
