@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Functions {
     public static Circle square(Circle cr){
@@ -27,7 +28,16 @@ public class Functions {
         }
     }
     public static ArrayList<Circle> sort (ArrayList<Circle> list){
-
+        int arr[] = new int[list.size()];
+        for (int i=0; i<list.size(); i++){
+            arr[i]=list.get(i).diameter;
+            Arrays.sort(arr);
+        }
+        for(int i=0; i<list.size(); i++){
+            if(list.get(i).diameter==arr[0]){
+                System.out.println(list.get(i));
+            }
+        }
         return list;
     }
 }

@@ -6,8 +6,8 @@ import java.util.List;
 
 public class program {
     public static void main(String[] args) {
-        String path = "C:\\Workspace\\java development\\lab5\\src\\text.txt";
-        String save = "C:\\Workspace\\java development\\lab5\\src\\result.txt";
+        String path = "C:\\Workspace\\My-projects\\lab5\\src\\text.txt";
+        String save = "C:\\Workspace\\My-projects\\lab5\\src\\result.txt";
 
         int minSymbols = 3;
         int maxSymbols = 5;
